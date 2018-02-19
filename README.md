@@ -12,6 +12,7 @@ All functions are present in index.js files.
     ```
 
 2. check If user is properly Enrolled
+    ```
     checkIfEnroll(UserId, function(res,err){
         console.log(res);
     });
@@ -19,17 +20,22 @@ All functions are present in index.js files.
     res contains json with a parameter named EnrollmentStatus
     Only go forward if EnrollmentStatus == 'Enrolled'
     else wait for EnrollmentStatus to be enrolled
+    ```
 
 3. Submit a voice Identify operation
+    ```
     Operation(UserIdsCommaSeparated,testAudioPath, function(res,err){
         console.log(res);
     });
 
     res contains operation id.
+    ```
 
 4. Identify the user
+    ```
     Identify(operationID, function(res,err){
         console.log(res);
     });
 
     res contains user Id.
+    ```
