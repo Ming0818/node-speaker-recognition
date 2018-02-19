@@ -3,11 +3,13 @@
 All functions are present in index.js files.
 
 1. Create and Enroll a user
-    `createAndEnroll(TrainAudioPath,function(res,err){`
-    `    console.log(res);`
-    `});`
-    ` `
-    `res contains id of user.`
+    ```
+    createAndEnroll(TrainAudioPath,function(res,err){
+        console.log(res);
+    });
+
+    res contains id of user.
+    ```
 
 2. check If user is properly Enrolled
     checkIfEnroll(UserId, function(res,err){
