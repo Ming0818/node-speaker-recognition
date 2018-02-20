@@ -76,18 +76,18 @@ function Identify(operationId,callback){
 
 //Tests
 
-// createAndEnroll('./test/assets/training/kameswari_voice.wav',function(res,err){
+// createAndEnroll('./training/kameswari_voice.wav',function(res,err){
 //     console.log(res);
 // });
 
-// checkIfEnroll("0f6375b2-f342-4cd5-936a-9efc833bc071", function(res,err){
+// checkIfEnroll("666945eb-dfa3-4789-a761-c6fcd0ac6121", function(res,err){
 //     console.log(res);
 // });
 
-// Operation("0f6375b2-f342-4cd5-936a-9efc833bc071",'./test/assets/training/kameswari_voice.wav', function(res,err){
+// Operation("666945eb-dfa3-4789-a761-c6fcd0ac6121",'./training/kameswari_voice.wav', function(res,err){
 //     console.log(res);
 // });
 
-// Identify("7b3dc2f5-dd6c-4f5e-8938-8a0d7d046431", function(res,err){
+// Identify("690969ca-158f-43bb-b44b-10ad43474b74", function(res,err){
 //     console.log(res);
 // });
